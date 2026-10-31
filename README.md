@@ -1,6 +1,6 @@
 # Folio
 
-**A free Windows app for reading, editing and signing PDFs — and for editing Word, Excel and PowerPoint files.**
+**A free Windows app for reading, editing and signing PDFs, editing Word, Excel and PowerPoint files, and writing LaTeX.**
 Everything runs on your own computer: no account, no uploads, no subscription.
 
 ### ⬇️ [Download the latest version](https://github.com/Sunless19/folio-releases/releases/latest)
@@ -50,6 +50,12 @@ From the [latest release](https://github.com/Sunless19/folio-releases/releases/l
 - Only what you change is touched — formatting, images and charts elsewhere stay exactly as they were
 - Unsaved changes survive a crash: reopen the file and click *Restore them*
 - "Save as PDF" via print
+
+**LaTeX**
+- Editor with highlighting, snippets, maths symbols and templates (article, report, letter, slides, CV)
+- Instant built-in preview — works offline with nothing to install
+- Full LaTeX (TikZ, any package) with MiKTeX / TeX Live, or one click to install the Tectonic engine
+- Errors listed by line, export PDF
 
 **Comfort**
 - Reopens your files where you left off, and recovers unsaved edits after a crash
