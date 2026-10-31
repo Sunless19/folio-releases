@@ -40,10 +40,11 @@ This repository only hosts the downloads. The source code is not public.
 - Check digital signatures: who signed, when, and whether the document was changed afterwards — with a green ✓ / red ✗ on the signature, like Adobe Reader
 
 **Office files**
-- **Excel** (.xlsx, .xls, .csv): edit cells and formulas with live results, copy/paste to and from Excel
-- **Word** (.docx): type straight on the page, bold/italic/underline, alignment, headings, find & replace
-- **PowerPoint** (.pptx): edit text boxes, tables and speaker notes; reorder, duplicate and delete slides
+- **Excel** (.xlsx, .xls, .csv): edit cells and formulas with live results, AutoSum, fill down/right, number formats, Sum/Average/Count of selections
+- **Word** (.docx): type straight on the page, bold/italic/underline, size, colour, highlight, headings, page breaks, find & replace, word count
+- **PowerPoint** (.pptx): a PowerPoint-style canvas — move and resize anything, insert text boxes, shapes, pictures and new slides, format text and shapes, slideshow (F5)
 - Only what you change is touched — formatting, images and charts elsewhere stay exactly as they were
+- Unsaved changes survive a crash: reopen the file and click *Restore them*
 - "Save as PDF" via print
 
 **Comfort**
