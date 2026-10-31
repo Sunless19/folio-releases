@@ -1,6 +1,6 @@
 # Folio
 
-**A free Windows app for reading, editing and signing PDFs — and for viewing Word, Excel and PowerPoint files.**
+**A free Windows app for reading, editing and signing PDFs — and for editing Word, Excel and PowerPoint files.**
 Everything runs on your own computer: no account, no uploads, no subscription.
 
 ### ⬇️ [Download the latest version](https://github.com/Sunless19/folio-releases/releases/latest)
@@ -20,7 +20,7 @@ This repository only hosts the downloads. The source code is not public.
 
 **Requirements:** Windows 10 or 11 (64-bit). Folio uses the Microsoft Edge WebView2 runtime, which ships with Windows 11 and current Windows 10.
 
-**To make Folio open your PDFs:** in Folio open Settings (⚙) → *Windows "Open with" menu* → **Add**. Then right-click any PDF → *Open with → Choose another app → Folio → Always*.
+**To open files with Folio by double-clicking:** in Folio open Settings (⚙) → *Open files with Folio* → **Add**. Windows' *Default apps* page opens on Folio — pick the file types (PDF, Word, Excel, PowerPoint, CSV, images) you want it to open.
 
 **Uninstall:** delete the `Folio` folder. Settings and the signature library live in `%APPDATA%\Folio` and can be deleted too.
 
@@ -37,10 +37,14 @@ This repository only hosts the downloads. The source code is not public.
 **Signatures**
 - Draw, type, or photograph your signature; it's kept in your own signature library
 - Lift a handwritten signature off any scanned document and save it as a transparent PNG
-- Check digital signatures: who signed, when, and whether the document was changed afterwards
+- Check digital signatures: who signed, when, and whether the document was changed afterwards — with a green ✓ / red ✗ on the signature, like Adobe Reader
 
-**Office files (view only)**
-- Word (.docx), Excel (.xlsx, .xls, .csv) and PowerPoint (.pptx), with "Save as PDF" via print
+**Office files**
+- **Excel** (.xlsx, .xls, .csv): edit cells and formulas with live results, copy/paste to and from Excel
+- **Word** (.docx): type straight on the page, bold/italic/underline, alignment, headings, find & replace
+- **PowerPoint** (.pptx): edit text boxes, tables and speaker notes; reorder, duplicate and delete slides
+- Only what you change is touched — formatting, images and charts elsewhere stay exactly as they were
+- "Save as PDF" via print
 
 **Comfort**
 - Reopens your files where you left off, and recovers unsaved edits after a crash
