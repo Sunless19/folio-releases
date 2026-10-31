@@ -11,9 +11,13 @@ This repository only hosts the downloads. The source code is not public.
 
 ## Install
 
-1. Download `Folio-<version>-win-x64.zip` from the [Releases page](https://github.com/Sunless19/folio-releases/releases/latest).
-2. Right-click the zip → **Extract All…** and put the `Folio` folder somewhere permanent (for example `Documents\Folio`).
-3. Open the folder and double-click **Folio.exe**. To pin it, right-click `Folio.exe` → *Show more options* → *Pin to Start* / *Send to → Desktop (create shortcut)*.
+From the [latest release](https://github.com/Sunless19/folio-releases/releases/latest) download **one** of:
+
+- **`Folio-<version>-Setup.exe` — recommended.** Run it and click *Install*. Installs Folio for your user (no admin
+  rights needed), adds Desktop and Start-menu shortcuts, and appears in *Settings → Apps* so you can uninstall it like
+  any other app. To update later, run the new Setup — your settings and signatures are kept.
+- **`Folio-<version>-win-x64.exe`** — a single portable file: just double-click it, nothing gets installed.
+- **`Folio-<version>-win-x64.zip`** — a portable folder: extract it and run `Folio.exe`.
 
 > **"Windows protected your PC"?** Folio isn't code-signed yet, so SmartScreen warns about any new download.
 > Click **More info → Run anyway**. You can check the download against the SHA-256 shown in the release notes.
@@ -22,7 +26,7 @@ This repository only hosts the downloads. The source code is not public.
 
 **To open files with Folio by double-clicking:** in Folio open Settings (⚙) → *Open files with Folio* → **Add**. Windows' *Default apps* page opens on Folio — pick the file types (PDF, Word, Excel, PowerPoint, CSV, images) you want it to open.
 
-**Uninstall:** delete the `Folio` folder. Settings and the signature library live in `%APPDATA%\Folio` and can be deleted too.
+**Uninstall:** *Settings → Apps → Folio → Uninstall* (if you used Setup), or just delete the portable file/folder. Settings and the signature library live in `%APPDATA%\Folio`; the uninstaller asks whether to delete them.
 
 ## What it does
 
