@@ -15,7 +15,8 @@ From the [latest release](https://github.com/Sunless19/folio-releases/releases/l
 
 - **`Folio-<version>-Setup.exe` — recommended.** Run it and click *Install*. Installs Folio for your user (no admin
   rights needed), adds Desktop and Start-menu shortcuts, and appears in *Settings → Apps* so you can uninstall it like
-  any other app. To update later, run the new Setup — your settings and signatures are kept.
+  any other app. **Folio updates itself**: when a new version is out it offers *Update now* (your settings and signatures
+  are kept).
 - **`Folio-<version>-win-x64.exe`** — a single portable file: just double-click it, nothing gets installed.
 - **`Folio-<version>-win-x64.zip`** — a portable folder: extract it and run `Folio.exe`.
 
@@ -60,10 +61,14 @@ From the [latest release](https://github.com/Sunless19/folio-releases/releases/l
 **Comfort**
 - Reopens your files where you left off, and recovers unsaved edits after a crash
 - Command palette (Ctrl+K), keyboard shortcuts (press **?**), tabs, dark mode, night-reading mode, presentation mode (F5)
+- Optional auto-save, and a reload prompt when another program changes a file you have open
+- Recent files with thumbnails; pin favourites to the top
+- PDF outline (bookmarks) panel; export PDF pages as PNG/JPG
 
 ## Privacy
 
 Folio never sends your documents anywhere. It runs a private server on `127.0.0.1` that only the Folio window can use.
+The only thing it asks the internet for is whether a newer version exists on this page (you can turn that off in Settings).
 
 ## Licenses
 
