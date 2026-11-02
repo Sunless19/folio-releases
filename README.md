@@ -65,6 +65,22 @@ From the [latest release](https://github.com/Sunless19/folio-releases/releases/l
 - Recent files with thumbnails; pin favourites to the top
 - PDF outline (bookmarks) panel; export PDF pages as PNG/JPG
 
+## Use Folio from Claude
+
+Folio includes an **MCP server**, so Claude (Claude Code or Claude Desktop) can work with your documents through
+Folio — like it does with LibreOffice: read PDFs, Word, Excel and PowerPoint files, look at pages, convert to PDF or
+images, fill forms, add text, check marks or your saved signature, merge/split, change Excel cells or replace text in
+Word/PowerPoint, check digital signatures, compile LaTeX, and open a file in Folio for you to review.
+
+In Folio open Settings (⚙) → *Use Folio from Claude* → **Copy command** and paste it in a terminal (Claude Code), or
+**Copy config** and paste it into Claude Desktop's `claude_desktop_config.json`. For Claude Code that is:
+
+```
+claude mcp add --scope user folio -- "%LOCALAPPDATA%\Programs\Folio\Folio.exe" --mcp
+```
+
+Everything still runs on your computer; Folio only reads and writes the files Claude names.
+
 ## Privacy
 
 Folio never sends your documents anywhere. It runs a private server on `127.0.0.1` that only the Folio window can use.
