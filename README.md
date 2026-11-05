@@ -48,6 +48,7 @@ From the [latest release](https://github.com/Sunless19/folio-releases/releases/l
 - **Excel** (.xlsx, .xls, .csv): edit cells and formulas with live results, AutoSum, fill down/right, number formats, Sum/Average/Count of selections
 - **Word** (.docx): type straight on the page, bold/italic/underline, size, colour, highlight, headings, page breaks, find & replace, word count
 - **PowerPoint** (.pptx): a PowerPoint-style canvas — move and resize anything, insert text boxes, shapes, pictures and new slides, format text and shapes, slideshow (F5)
+- Start a blank Word document, Excel workbook or PowerPoint presentation straight from the home screen
 - Only what you change is touched — formatting, images and charts elsewhere stay exactly as they were
 - Unsaved changes survive a crash: reopen the file and click *Restore them*
 - "Save as PDF" via print
