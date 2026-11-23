@@ -45,8 +45,9 @@ From the [latest release](https://github.com/Sunless19/folio-releases/releases/l
 - Check digital signatures: who signed, when, and whether the document was changed afterwards — with a green ✓ / red ✗ on the signature, like Adobe Reader
 
 **Office files**
-- **Excel** (.xlsx, .xls, .csv): edit cells and formulas with live results, AutoSum, fill down/right, number formats, Sum/Average/Count of selections
-- **Word** (.docx): type straight on the page, bold/italic/underline, font size, colour, highlight, headings, pictures, page breaks, find & replace, word count
+- **Office-style ribbons** for Word and Excel, with the tools where you expect them
+- **Excel** (.xlsx, .xls, .csv): your files look as they do in Excel (fonts, colours, borders, alignment). Edit cells and over 100 formula functions (VLOOKUP, XLOOKUP, SUMIFS…), fonts and colours, borders, merge, number formats (lei/€/$, dates), insert/delete rows and columns, resize, sort, filter, freeze panes, add/rename sheets, find & replace, AutoSum
+- **Word** (.docx): type straight on the page; fonts, sizes, colours, highlight, bullets and numbering, indents and spacing, styles, tables, pictures, links, symbols, margins/orientation/paper size, format painter, find & replace, word count
 - **PowerPoint** (.pptx): a PowerPoint-style canvas — move and resize anything, insert text boxes, shapes, pictures and new slides, format text and shapes, slideshow (F5)
 - Start a blank Word document, Excel workbook or PowerPoint presentation straight from the home screen
 - Only what you change is touched — formatting, images and charts elsewhere stay exactly as they were
